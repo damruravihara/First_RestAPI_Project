@@ -12,7 +12,7 @@ public class Item {
 		{
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/eg_online_system", "root", "pafproject");
+			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eg_online_system", "root", "pafproject");
 		}
 		catch (Exception e) {
 			e.printStackTrace();
